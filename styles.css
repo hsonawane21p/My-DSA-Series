@@ -1,0 +1,39 @@
+.container {
+    display: flex; /* This CSS function creates a flexbox layout */
+    justify-content: space-between; /* Aligns items with space between them */
+    align-items: center; /* Aligns items vertically at the center */
+}
+
+.header {
+    background-color: #f8f9fa; /* Light grey background for the header */
+    padding: 20px; /* Adds space inside the header */
+    text-align: center; /* Centers text in the header */
+}
+
+.button {
+    background-color: #007bff; /* Bootstrap primary blue color */
+    color: white; /* White text color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    padding: 10px 20px; /* Adds padding to the button */
+    cursor: pointer; /* Changes cursor to pointer when hovering */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* CSS Functions to Explore: */
+/* 1. calc(): Allows for dynamic calculations to set lengths, e.g., width: calc(100% - 20px); */
+/* 2. var(): For using CSS variables to maintain consistency e.g., --main-color: #333; */
+/* 3. grid: A powerful layout tool that can replace flexbox in many scenarios */
+/* 4. keyframes: To create animations by defining styles at various points in time */
+/* 5. transform: To apply 2D or 3D transformations, e.g., scale, rotate, translate. */
+
+/* Suggested Features To Add: */
+/* - Media queries for responsive design */
+/* - CSS Grid for complex layouts */
+/* - Custom properties (variables) to streamline colors and fonts */
+/* - Transitions for smooth state changes */
+/* - @keyframes to create animations for elements */
